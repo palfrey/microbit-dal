@@ -1,6 +1,6 @@
 {
     "name": "microbit-dal",
-    "version": "2.0.0-rc4",
+    "version": "2.0.0-rc4.build1",
     "keywords": "microbit, framework, bbc",
     "description": "The core set of drivers, mechanisms and types that make up the micro:bit runtime.",
     "authors": {
