@@ -3,10 +3,15 @@
     "version": "2.0.0-rc4",
     "keywords": "microbit, framework, bbc",
     "description": "The core set of drivers, mechanisms and types that make up the micro:bit runtime.",
+    "authors": {
+        "name": "Lancaster University",
+        "url": "https://github.com/lancaster-university"
+    },
     "repository":
     {
         "type": "git",
-        "url": "https://github.com/lancaster-university/microbit-dal.git"
+        "url": "https://github.com/palfrey/microbit-dal.git",
+        "branch": "platformio-3.0"
     },
     "dependencies": {
         "ble": "lancaster-university/BLE_API#v2.5.0+mb3",
