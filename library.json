@@ -1,6 +1,6 @@
 {
     "name": "microbit-dal",
-    "version": "2.0.0-rc4.build1",
+    "version": "2.0.0-rc4.build2",
     "keywords": "microbit, framework, bbc",
     "description": "The core set of drivers, mechanisms and types that make up the micro:bit runtime.",
     "authors": {
@@ -25,7 +25,9 @@
         "-Iinc/types",
         "-Iinc/drivers",
         "-Iinc/bluetooth",
-        "-Iinc/platform"
+        "-Iinc/platform",
+        "-Dp4=P4",
+        "-Dp13=P13"
       ],
       "extraScript": "platformio_extra.py"
     },
